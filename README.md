@@ -13,3 +13,23 @@ than, i tried to see if we could hack the password in easier methods, like we sa
   * ltrace prog (do not work)
 ![image](https://user-images.githubusercontent.com/42152443/235359566-212b1da5-df37-4f78-a68a-86ba372a272d.png)
 
+so we need to solve it with an assembler:
+
+we used the command " objdump -d prog | less"
+there we saw 2 important things:
+
+1. entering the real password to the stack rgb (register).
+
+![image](https://user-images.githubusercontent.com/42152443/235359859-809e45e0-1802-49e6-81ba-99ffdce2df40.png)
+
+2. checking if the password that the user enter is correct by taking the values above and comparing after negitiving it, bit by bit.
+![image](https://user-images.githubusercontent.com/42152443/235359957-736c67bd-f799-48d2-a112-e83b3643614b.png)
+
+so we took the password bit by bit negiting it (with not and than added 1), and checked it in front of an ASCII table
+![image](https://user-images.githubusercontent.com/42152443/235360112-3b6c281b-66a6-497d-897d-9f22ab117017.png)
+![image](https://user-images.githubusercontent.com/42152443/235360195-9511a850-aaa6-401d-9dcd-a0aca6e2af32.png)
+
+the parsed string was FACEBOOK
+![image](https://user-images.githubusercontent.com/42152443/235360254-9bb7ce1c-ec36-4b7a-b7bd-f7ba8390754d.png)
+
+THE END :)
