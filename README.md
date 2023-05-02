@@ -31,7 +31,11 @@ there we saw 2 important things:
 
 so we took the password bit by bit negiting it (with not and than added 1), and checked it in front of an ASCII table
 ![image](https://user-images.githubusercontent.com/42152443/235360112-3b6c281b-66a6-497d-897d-9f22ab117017.png)
-![image](https://user-images.githubusercontent.com/42152443/235360195-9511a850-aaa6-401d-9dcd-a0aca6e2af32.png)
+![image](https://user-images.githubusercontent.com/42152443/235733749-132b4387-c53d-4195-95f2-2b87cb646858.png)
+
+ba bf bd bb be b1 b1 b5 --> 46 41 43 45 42 4f 4f 4b
+
+![image](https://user-images.githubusercontent.com/42152443/235735446-c4cf5b7d-eb4c-4609-a2a4-b7cdf79895e0.png)
 
 the parsed string was FACEBOOK
 
