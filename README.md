@@ -29,12 +29,12 @@ there we saw 2 important things:
 
 ![image](https://user-images.githubusercontent.com/42152443/235359957-736c67bd-f799-48d2-a112-e83b3643614b.png)
 
-so we took the password bit by bit negiting it (with not and than added 1), and checked it in front of an ASCII table
+so we took the password bit by bit negiting it (with not and than added 1).
 ![image](https://user-images.githubusercontent.com/42152443/235360112-3b6c281b-66a6-497d-897d-9f22ab117017.png)
-![image](https://user-images.githubusercontent.com/42152443/235733749-132b4387-c53d-4195-95f2-2b87cb646858.png)
 
 ba bf bd bb be b1 b1 b5 --> 46 41 43 45 42 4f 4f 4b
-
+then, we parst it with ASCII table
+![image](https://user-images.githubusercontent.com/42152443/235733749-132b4387-c53d-4195-95f2-2b87cb646858.png)
 ![image](https://user-images.githubusercontent.com/42152443/235735446-c4cf5b7d-eb4c-4609-a2a4-b7cdf79895e0.png)
 
 the parsed string was FACEBOOK
